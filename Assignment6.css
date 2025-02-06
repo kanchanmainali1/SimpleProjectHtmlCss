@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1a2235;
+    line-height: 1.6;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background: url(https://img.freepik.com/premium-photo/girl-sleeping-desk-with-laptop-book-table_1097192-93778.jpg) no-repeat center center/cover;
+  }
+  
+  .navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00e599;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 8px 15px;
+    margin-left: 800px;
+  }
+  
+  .nav-links a {
+    
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-get-started {
+    padding: 10px 20px;
+    background: #00e599;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  
+  }
+  
+  .hero {
+    margin-top: 50px;
+    
+    
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    max-width: 400px;
+    
+  }
+  
+  .hero p {
+    margin: 15px 0;
+    max-width: 400px;
+  }
+  
+  .btn-discover {
+    padding: 10px 20px;
+    background: #00e599;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right:1100px ;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .feature {
+    background: #2b3956;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .feature h3 {
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    background: #00e599;
+    color: white;
+  }
+  .highlight .btn-learn{
+    background-color: white;
+    color: black;
+  }
+  
+  .btn-learn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #00e599;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .middle{
+    margin-left: 500px;
+    font-size:2.5ch;
+  
+  }
+  
+  .protection {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: #2b3956;
+  }
+  
+  .protection-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .protection-image {
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .text h2 {
+    font-size: 1.5rem;
+   
+  }
+  
+  .text ul {
+    margin-top: 15px;
+    list-style: none;
+  }
+  
+  .text ul li {
+    margin: 5px 0;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a2235;
+  }
+  .Experience{
+    background-color: #00e599;
+    color: #fff;
+   
+  
+  }
+  .text{
+    margin-left: 500px;
+  }
